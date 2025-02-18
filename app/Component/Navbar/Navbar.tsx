@@ -26,12 +26,6 @@ const Navbar = () => {
                 <a href="#" className="text-white hover:bg-white hover:text-black rounded-lg p-2 hover:transition-all">On Sale</a>
                 <a href="#" className="text-white hover:bg-white hover:text-black rounded-lg p-2 hover:transition-all">New Arrival</a>
                 <a href="#" className="text-white hover:bg-white hover:text-black rounded-lg p-2 hover:transition-all">Brands</a>
-                <SignedOut>
-                  <SignInButton />
-                </SignedOut>
-                <SignedIn>
-                  <UserButton />
-                </SignedIn>
               </div>
             </div>
             <div className="md:hidden flex items-center">
